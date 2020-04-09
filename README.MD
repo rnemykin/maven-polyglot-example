@@ -31,7 +31,7 @@ XML:
     </build>
 ```
 
-    **VS**
+**VS**
     
 YAML
 ```yaml
