@@ -1,0 +1,1 @@
+##Sample project of maven configuration in yaml format

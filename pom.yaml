@@ -1,0 +1,21 @@
+modelEncoding: UTF-8
+modelVersion: 4.0.0
+parent: {artifactId: spring-boot-starter-parent, groupId: org.springframework.boot, relativePath: '', version: 2.2.6.RELEASE}
+groupId: com.rnemykin.examples.mvnpolyglot
+artifactId: demo
+version: 0.0.1-SNAPSHOT
+packaging: jar
+name: Maven yaml configuration
+description: Mvn polyglot example a[[
+properties: {java.version: 1.8}
+dependencies:
+  - {groupId: org.springframework.boot, artifactId: spring-boot-starter-web}
+  - groupId: org.springframework.boot
+    artifactId: spring-boot-starter-test
+    scope: test
+    exclusions:
+      - {artifactId: junit-vintage-engine, groupId: org.junit.vintage}
+build:
+  plugins:
+    - {groupId: org.springframework.boot, artifactId: spring-boot-maven-plugin}
+childProjectUrlInheritAppendPath: true
